@@ -207,9 +207,20 @@ Certainly! Here are some basic Kubernetes commands along with their common use c
 
 **Quetions and Answers for Kuberenetes**
 
-Certainly! Here are the answers to your questions:
+
+Here are the answers to your questions:
+
+1.What is the main purpose of Kubernetes?
+
+Answer : Kubernetes is a portable, extensible, open source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
+![image](https://github.com/shivanaguttiadi/Adi_DevOps_Contents/assets/143313733/37b9ccb4-448d-491f-b512-2f52e6adad50)
 
 
+2.How to explain Kubernetes architecture in an interview?
+
+Answer : The Kubernetes Architecture has mainly 2 components – the master node and the worker node. The master and the worker nodes have many inbuilt components within them. The master node has the kube-controller-manager, kube-apiserver, kube-scheduler, etcd.
+
+3. 
 31. **What is a Pod in Kubernetes?**
    
    **Answer:** A Pod is the smallest deployable unit in Kubernetes, consisting of one or more containers that share networking and storage resources.
