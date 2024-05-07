@@ -213,7 +213,7 @@ Here are the answers to your questions:
 1.What is the main purpose of Kubernetes?
 
 Answer : Kubernetes is a portable, extensible, open source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
-![image](https://github.com/shivanaguttiadi/Adi_DevOps_Contents/assets/143313733/37b9ccb4-448d-491f-b512-2f52e6adad50)
+![image](https://github.com/shivanaguttiadi/Adi_DevOps_Contents/assets/143313733/46c32bda-45ab-48da-89fb-779abbcb1bc7)
 
 
 2.How to explain Kubernetes architecture in an interview?
