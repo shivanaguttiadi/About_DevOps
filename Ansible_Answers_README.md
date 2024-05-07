@@ -486,3 +486,57 @@ Answer: Configuration management is the process of systematically managing the c
 
 30. **Question: What is the difference between Ansible and Puppet?**
     - Answer: Ansible and Puppet are both configuration management tools, but they have different approaches and architectures. Ansible uses an agentless architecture and relies on SSH for communication, while Puppet uses an agent-based architecture with a client-server model. Additionally, Ansible uses YAML for configuration management, whereas Puppet uses its own declarative language called Puppet DSL.
+
+31. Question : create yaml file 100 instances in single node.
+
+ Below is an example of an Ansible playbook YAML file that configures 100 instances on a single node:
+
+```yaml
+---
+- name: Configure 100 instances on a single node
+  hosts: localhost
+  connection: local
+  gather_facts: no
+
+  tasks:
+    - name: Create 100 instances
+      ec2_instance:
+        count: 100
+        image_id: ami-12345678  # Replace with your AMI ID
+        instance_type: t2.micro  # Replace with your instance type
+        key_name: my_keypair     # Replace with your key pair
+        security_group: my_sg    # Replace with your security group
+        region: us-east-1        # Replace with your region
+        wait: yes
+      register: ec2
+
+    - name: Add instances to host group
+      add_host:
+        name: "{{ item.public_ip }}"
+        groups: ec2_instances
+      with_items: "{{ ec2.instances }}"
+
+    - name: Print public IPs
+      debug:
+        msg: "Instance {{ item.item.id }} has public IP {{ item.public_ip }}"
+      with_items: "{{ ec2.instances }}"
+```
+
+In this example:
+
+- `count: 100` specifies the number of instances to create.
+- `image_id`, `instance_type`, `key_name`, `security_group`, and `region` are parameters specific to AWS EC2 instances. Replace them with your values.
+- `wait: yes` waits for the instances to be in a 'running' state before continuing.
+- `register: ec2` captures information about the created instances.
+- `add_host` adds the public IP addresses of the instances to the `ec2_instances` host group.
+- `debug` prints the public IP addresses of the instances.
+
+Ensure you have necessary AWS credentials configured for Ansible to access AWS services.
+
+You can run this playbook using the `ansible-playbook` command:
+
+```sh
+ansible-playbook -i localhost, playbook.yml
+```
+
+This will configure 100 instances on the localhost node according to the specifications provided in the playbook. Adjust the playbook parameters and settings as needed for your environment.
