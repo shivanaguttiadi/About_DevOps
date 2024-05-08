@@ -130,9 +130,9 @@ For CICD, you can find Terrform interview questions and answers on platforms bel
 
 **CICD pipelines Quetions and Answers▶️**
 
-**Jenkins_cicd ANswers**▶️[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_CICD_tools/Jenkins_cicd_answers_README.md)
+**Jenkins_cicd ANswers**▶️[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Contents/blob/main/Jenkins_cicd_answers_README.md)
 
-**Azure-DevOps_cicd ANswers**▶️[**clickhere**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_CICD_tools/Azure_DevOps_Answers_README.md)
+**Azure-DevOps_cicd ANswers**▶️[**clickhere**](https://github.com/shivanaguttiadi/Adi_DevOps_Contents/blob/DevOps_Answers_Brach/Azure_DevOps_Answers_README.md)
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -214,7 +214,7 @@ Kubernetes: Kubernetes is a powerful container orchestration tool that helps man
 For Kubernetes, you can find interview questions and answers on platforms like GitHub by searching for repositories dedicated to Kubernetes interview preparation. These repositories typically contain a curated list of common Ansible interview questions along with their answers, providing a convenient resource for candidates looking to prepare for Kubernetes-related discussions.
 
 Kubernetes Quetions and Answers▶️
-[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_Kubernetes/Kubernetes_Answers_README.md)
+[**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Contents/blob/main/Docker_Answers_README.md)
 
 -------------------------------------------------------------------------------------------------------------------
 
@@ -283,9 +283,9 @@ For Scripting, you can find interview questions and answers on platforms like Gi
 
 **Scripting Quetions and Answers▶️**
 
-**Bash_Scripting** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_Bash%26Python-Scripting/Bash_Scripting_README.md)
+**Bash_Scripting** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Contents/blob/main/Bash_Scripting_README.md)
 
-**Python_Scripting** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Answers_Bash%26Python-Scripting/Python_Scripting_README.md)
+**Python_Scripting** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Contents/blob/main/Python_Scripting_README.md)
 
 -------------------------------------------------------------------------------------------------------------------
 
@@ -317,7 +317,7 @@ For Security, you can find interview questions and answers on platforms like Git
 
 **Security Quetions and Answers▶️**
 
-**Security** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Security/Security_Answers.README.md)
+**Security** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Contents/blob/main/Security_Answers.README.md)
 
 -------------------------------------------------------------------------------------------------------------------
 
@@ -352,7 +352,7 @@ For Monitoring, you can find interview questions and answers on platforms like G
 
 **Monitoring Quetions and Answers**
 
-**Monitoring** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/DevOps_Monitoring/MOnitoring_Answers_README.md)
+**Monitoring** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Contents/blob/main/MOnitoring_Answers_README.md)
 
 -----------------------------------------------------------------------------------------------------------------
 
@@ -376,10 +376,10 @@ By explaining these topics in a concise and smart manner, you can effectively co
 
 **Monitoring Quetions and Answers**
 
-**Cloud Cost Optimizations** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/Basic_OverAll/Cloud_Cost.README.md)
+**Cloud Cost Optimizations** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Contents/blob/main/Cloud_Cost.README.md)
 
-**General Interview** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/Basic_OverAll/Self_Prepare.READM.md)
+**General Interview** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Contents/blob/main/Self_Genaral.READM.md)
 
-**Basic Troubleshooting** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Preparation_Repo/blob/Basic_OverAll/troubleshooting_Answers_README.md)
+**Basic Troubleshooting** ▶️ [**click here**](https://github.com/shivanaguttiadi/Adi_DevOps_Contents/blob/main/troubleshooting_Answers_README.md)
 
 -----------------------------------------------------------------------------------------------------------------
