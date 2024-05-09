@@ -12,12 +12,19 @@ Answer: Azure DevOps is a set of cloud-based collaboration tools provided by Mic
 2. Question :  What are the 7 C's of DevOps?
 
 These are 7Cs of the DevOps lifecycles 
+   
    a. Continuous Development
+   
    b. Continuous Integration
+   
    c. Continuous Testing 
+   
    d. Continuous Deployment 
+   
    e. Continuous Feedback
+   
    f. Continuous Monitoring
+   
    g. Continuous Operations
 
 3. Question: What are the key components of Azure DevOps, and how do they contribute to the software development lifecycle?
