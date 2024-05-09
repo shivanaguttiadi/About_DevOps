@@ -1,9 +1,9 @@
 **Ansible**
+
 Basic commands and ansible playbooks :
 
-Certainly! Here's a list of basic Ansible commands along with some common use cases and scenario-based Ansible scripts:
-
 ### Ansible Basic Commands:
+
 1. **ansible**: Used to run a command on a managed host.
    - Example: `ansible all -m command -a "uname -a"`
 
@@ -20,6 +20,7 @@ Certainly! Here's a list of basic Ansible commands along with some common use ca
    - Example: `ansible-doc command`
 
 ### Common Use Cases:
+
 1. **Configuration Management**: Using Ansible to ensure consistency in system configurations across multiple servers.
 
 2. **Application Deployment**: Automating the deployment of applications and services to servers using Ansible playbooks.
@@ -31,6 +32,7 @@ Certainly! Here's a list of basic Ansible commands along with some common use ca
 5. **Security Compliance**: Enforcing security policies and compliance standards across IT infrastructure using Ansible roles and playbooks.
 
 ### Scenario-Based Ansible Scripts:
+
 1. **Scenario 1: Update System Packages**
    - Ansible Script:
      ```yaml
