@@ -192,7 +192,7 @@ These categories allow you to manage permissions and define who can access which
 **Answer**:  
 Managed policies in AWS IAM are predefined sets of permissions that you can attach to IAM users, groups, or roles. These policies are maintained by AWS and cover common use cases, such as granting read-only access to specific services or allowing full access to resources within a particular service. Managed policies simplify permission management and help ensure consistent security configurations across your AWS environment.
 
-### Question 24: Can you give an example of an IAM policy and a policy summary?
+### Question 32: Can you give an example of an IAM policy and a policy summary?
 **Answer**:  
 Example: 
 ```json
@@ -215,22 +215,22 @@ Example:
 
 This policy allows users to get objects from the "example-bucket" but denies access to objects in the "confidential" folder within the bucket.
 
-### Question 32: How does AWS IAM help your business?
+### Question 33: How does AWS IAM help your business?
 **Answer**:  
 AWS IAM helps businesses by providing centralized control over access to AWS resources. It allows organizations to manage user identities, permissions, and authentication mechanisms, ensuring that only authorized users and services have access to critical resources. IAM also enables security best practices such as least privilege access, multi-factor authentication, and identity federation, helping businesses maintain compliance and protect sensitive data.
 
-### Question 33: What is the relation between the Availability Zone and Region?
+### Question 34: What is the relation between the Availability Zone and Region?
 **Answer**:  
 
 **Availability Zone (AZ):** Az's An isolated location within a region that contains one or more data centers. 
 
 **Region :** Region is a geographical area consisting of multiple Availability Zones. Each Availability Zone is designed to be independent of the others, with its own power, cooling, and networking infrastructure. Regions are interconnected through low-latency links, allowing for redundancy and fault tolerance.
 
-### Question 34: What is auto-scaling?
+### Question 35: What is auto-scaling?
 **Answer**:  
 Auto-scaling is a feature of AWS that automatically adjusts the number of compute resources (such as EC2 instances) in response to changes in demand. It helps ensure that your application always has enough capacity to handle incoming traffic while minimizing costs by scaling down when demand decreases. Auto-scaling can be based on various metrics, such as CPU utilization, network traffic, or custom metrics defined by the user.
 
-### Question 35: What are the types of Autosacaing?
+### Question 36: What are the types of Autosacaing?
 
 **Answer :**
 
@@ -240,15 +240,15 @@ Example : scale up and down number of nodes(instances)
 **b. Vertical :** Vertical auto scaling means scaling by adding more power rather than more units
 Example : scale up and down the CPU, memory and storage based on requirments
 
-### Question 36: What is geo-targeting in CloudFront?
+### Question 37: What is geo-targeting in CloudFront?
 **Answer**:  
 Geo-targeting in CloudFront allows you to deliver content based on the geographic location of the viewer. we can configure CloudFront to serve different versions of your content or redirect users to different URLs based on their country or region. This feature is useful for delivering localized content, complying with regional regulations, or tailoring the user experience based on location.
 
-### Question 37: How do you upgrade or downgrade a system with near zero downtime?
+### Question 38: How do you upgrade or downgrade a system with near zero downtime?
 **Answer**:  
 To upgrade or downgrade a system with near-zero downtime, you can use techniques such as blue-green deployment, canary deployment, or rolling updates. These approaches involve deploying new versions of our application alongside the existing version, gradually shifting traffic to the new version while monitoring for any issues. By carefully managing the deployment process and validating changes in a controlled environment, we can minimize disruptions and ensure a smooth transition with minimal downtime.
 
-### Question 38: What is deployment type in AWS?
+### Question 39: What is deployment type in AWS?
 
 **a. Rolling update**
 A rolling deployment slowly replaces instances of the previous version of an application with instances of the new version of the application. A rolling deployment typically waits for new pods to become ready via a readiness check before scaling down the old components. If a significant issue occurs, the rolling deployment can be aborted.
@@ -262,7 +262,7 @@ Canary deployments is a strategy that significantly reduces the risk of releasin
 **d. A/B testing**
 A/B testing, also known as split testing, involves comparing two versions of a web page or application to see which performs better, where variations A and B are presented randomly to users. In other words, users are divided into two groups with each group receiving a different variation of the software application. 
 
-### Question 39: What are the tools and techniques that you can use in AWS to identify if you are paying more than you should be, and how to correct it?
+### Question 40: What are the tools and techniques that you can use in AWS to identify if you are paying more than you should be, and how to correct it?
 **Answer**:  
 AWS offers several tools and techniques to help you monitor and optimize costs:
 
@@ -274,37 +274,58 @@ AWS offers several tools and techniques to help you monitor and optimize costs:
 
 **Tagging :** Tagging resources with metadata allows you to track and categorize costs, making it easier to identify opportunities for optimization.
 
-By regularly monitoring your usage, implementing cost-saving measures, and leveraging AWS cost management tools, you can ensure that you are only paying for the resources you need and optimize your AWS spending.
-
-### Question 40: What services can be used to create a centralized logging solution?
+### Question 41: What services can be used to create a centralized logging solution?
 **Answer**:  
 Services like Amazon CloudWatch Logs, Amazon Kinesis Data Firehose, and Amazon Elasticsearch Service can be used to create a centralized logging solution in AWS. These services allow you to collect, store, analyze, and visualize logs from various AWS resources and applications in a centralized location.
 
-### Question 41: What are the native AWS Security logging capabilities?
+### Question 42: What are the native AWS Security logging capabilities?
 **Answer**:  
 AWS provides several native security logging capabilities, including:
 
 **AWS CloudTrail :** Logs API calls and events for auditing and compliance purposes.
-- Amazon GuardDuty: Monitors for malicious activity and unauthorized behavior within your AWS environment.
-- AWS Config: Tracks changes to AWS resources and evaluates resource configurations for compliance with security policies.
 
-### Question 33: What is a DDoS attack and what services can minimize them?
+**Amazon GuardDuty :** Monitors for malicious activity and unauthorized behavior within your AWS environment.
+
+**AWS Config :** Tracks changes to AWS resources and evaluates resource configurations for compliance with security policies.
+
+### Question 43: What is a DDoS attack and what services can minimize them?
 **Answer**:  
 A DDoS (Distributed Denial of Service) attack is a malicious attempt to disrupt the normal traffic of a targeted server, service, or network by overwhelming it with a flood of internet traffic. Services like AWS Shield, AWS WAF (Web Application Firewall), and Amazon Route 53 can help minimize DDoS attacks by providing protection against volumetric, application-layer, and DNS-based attacks.
 
-### Question 34: You are trying to provide a service in a particular region but you are not seeing the service in that region. Why is this happening and how do you fix it?
+### Question 44: 6 Cloud Design Principles for a Successful Cloud Environment
+
+**Answer**
+**a. Scalability**
+Scalability is a crucial factor in cloud design. The ability to scale resources up or down according to demand is one of the key advantages of cloud computing.
+
+**b. Resiliency**
+Resiliency is the ability of a system to withstand and recover from failures. In cloud design, resiliency is achieved by implementing redundancy across multiple availability zones (AZs) and regions. 
+
+**c.Security**
+Security is a critical consideration in cloud design. It’s important to ensure that sensitive data is protected against unauthorized access or disclosure. 
+
+**d.Performance**
+Performance is a key factor in cloud design, and it’s important to ensure that the application can handle the expected workload. 
+
+**e.Cost Optimization**
+Cloud design should also focus on cost optimization. Cloud resources can be expensive, and it’s important to design the environment in a way that optimizes costs without sacrificing performance or reliability. 
+
+**f.Automation**
+Automation is a crucial factor in cloud design. Manual processes can be time-consuming and error-prone, and can lead to inconsistency and inefficiency.
+
+### Question 45: You are trying to provide a service in a particular region but you are not seeing the service in that region. Why is this happening and how do you fix it?
 **Answer**:  
 Not all AWS services are available in every region. This could be due to various reasons such as regulatory restrictions, infrastructure limitations, or service readiness. To fix this, you can either wait for the service to become available in the desired region or consider deploying your resources in a region where the service is supported.
 
-### Question 35: Name some of the AWS services that are not region specific
+### Question 46: Name some of the AWS services that are not region specific
 **Answer**:  
 Some AWS services that are not region-specific include IAM (Identity and Access Management), Route 53 (Domain Name System), and CloudFront (Content Delivery Network). These services are globally available and can be accessed from any AWS region.
 
-### Question 36: What are the differences between NAT Gateways and NAT Instances?
+### Question 47: What are the differences between NAT Gateways and NAT Instances?
 **Answer**:  
 NAT Gateways and NAT Instances both allow private subnets in a VPC to access the internet while preventing inbound traffic from reaching the instances directly. However, NAT Gateways are fully managed by AWS, highly available, and scalable, whereas NAT Instances require manual configuration, management, and maintenance. NAT Gateways also provide better performance and availability compared to NAT Instances.
 
-### Question 37: What are the factors to consider while migrating to Amazon Web Services?
+### Question 48: What are the factors to consider while migrating to Amazon Web Services?
 **Answer**:  
 Factors to consider while migrating to Amazon Web Services include:
 - Application dependencies and architecture
@@ -315,11 +336,13 @@ Factors to consider while migrating to Amazon Web Services include:
 - Performance and scalability requirements
 - Integration with existing systems and services
 
-### Question 38: What is RTO and RPO in AWS?
+### Question 49: What is RTO and RPO in AWS?
 **Answer**:  
-RTO (Recovery Time Objective) is the maximum acceptable downtime for recovering a system or service after a disruption, while RPO (Recovery Point Objective) is the maximum acceptable data loss in terms of time. These metrics help organizations define their recovery and data protection strategies, ensuring that they can meet business continuity and disaster recovery requirements.
+**RTO (Recovery Time Objective)**  is the maximum acceptable downtime for recovering a system or service after a disruption, 
 
-### Question 39: If you would like to transfer huge amounts of data, which is the best option among Snowball, Snowball Edge, and Snowmobile?
+**RPO (Recovery Point Objective)**  is the maximum acceptable data loss in terms of time. These metrics help organizations define their recovery and data protection strategies, ensuring that they can meet business continuity and disaster recovery requirements.
+
+### Question 50: If you would like to transfer huge amounts of data, which is the best option among Snowball, Snowball Edge, and Snowmobile?
 **Answer**:  
 The best option depends on the amount of data and the specific requirements of the transfer. Snowball is suitable for transferring up to 80TB of data, Snowball Edge for up to 100TB, and Snowmobile for exabytes of data. Snowball Edge also includes compute capabilities for data processing at the edge, while Snowmobile is a massive data transfer truck designed for large-scale data migrations.
 
