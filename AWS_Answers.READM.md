@@ -23,13 +23,9 @@ Latency Based Routing directs traffic based on the lowest network latency to the
 **Answer**:  
 
   a. General Purpose Instances.
-  
   b. Compute Optimized Instances.
-  
-  c. Memory-Optimized Instances.
-  
+  c. Memory-Optimized Instances.  
   d. Storage Optimized Instances.
-  
   c. Accelerated Computing Instances.
 
 ### Question 6: How does Amazon Route 53 provide high availability and low latency?
